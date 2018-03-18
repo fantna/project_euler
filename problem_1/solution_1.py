@@ -14,7 +14,6 @@ class Adder:
         return result
 
 if __name__ == "__main__":
-    adder = Adder()
-    result = adder.add(3, 1000) + adder.add(5, 1000) - adder.add(15, 1000)
+    result = Adder.add(3, 1000) + Adder.add(5, 1000) - Adder.add(15, 1000)
     print("result is", result)
 
